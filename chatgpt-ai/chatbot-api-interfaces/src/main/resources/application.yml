@@ -1,0 +1,28 @@
+server:
+  port: 8848
+
+#chatgpt-ai:
+#  groupId: 28885518425541
+##  cookie: zsxq_access_token=016E4B54-1587-2B40-C1CF-017E6CEAAB5E_73EEDF7C69E3A2B2; zsxqsessionid=5bcc671eb19ebd7e356140ddadbdd73b; abtest_env=product; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22184544148185252%22%2C%22first_id%22%3A%2218cdd2432675b-05825a51e453ffc-4c657b58-1395396-18cdd2432681164%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThjZGQyNDMyNjc1Yi0wNTgyNWE1MWU0NTNmZmMtNGM2NTdiNTgtMTM5NTM5Ni0xOGNkZDI0MzI2ODExNjQiLCIkaWRlbnRpdHlfbG9naW5faWQiOiIxODQ1NDQxNDgxODUyNTIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22184544148185252%22%7D%2C%22%24device_id%22%3A%2218cdd2432675b-05825a51e453ffc-4c657b58-1395396-18cdd2432681164%22%7D
+#  #cookie: sajssdk_2015_cross_new_user=1; zsxq_access_token=016E4B54-1587-2B40-C1CF-017E6CEAAB5E_73EEDF7C69E3A2B2; zsxqsessionid=5bcc671eb19ebd7e356140ddadbdd73b; abtest_env=product; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22184544148185252%22%2C%22first_id%22%3A%2218cdd2432675b-05825a51e453ffc-4c657b58-1395396-18cdd2432681164%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThjZGQyNDMyNjc1Yi0wNTgyNWE1MWU0NTNmZmMtNGM2NTdiNTgtMTM5NTM5Ni0xOGNkZDI0MzI2ODExNjQiLCIkaWRlbnRpdHlfbG9naW5faWQiOiIxODQ1NDQxNDgxODUyNTIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22184544148185252%22%7D%2C%22%24device_id%22%3A%2218cdd2432675b-05825a51e453ffc-4c657b58-1395396-18cdd2432681164%22%7D
+#  cookie: zsxq_access_token=016E4B54-1587-2B40-C1CF-017E6CEAAB5E_73EEDF7C69E3A2B2; zsxqsessionid=5bcc671eb19ebd7e356140ddadbdd73b; abtest_env=product; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22184544148185252%22%2C%22first_id%22%3A%2218cdd2432675b-05825a51e453ffc-4c657b58-1395396-18cdd2432681164%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThjZGQyNDMyNjc1Yi0wNTgyNWE1MWU0NTNmZmMtNGM2NTdiNTgtMTM5NTM5Ni0xOGNkZDI0MzI2ODExNjQiLCIkaWRlbnRpdHlfbG9naW5faWQiOiIxODQ1NDQxNDgxODUyNTIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22184544148185252%22%7D%2C%22%24device_id%22%3A%2218cdd2432675b-05825a51e453ffc-4c657b58-1395396-18cdd2432681164%22%7D
+#  openAiKey: a9c7f791e5fe14b04d185520c7941d3b
+
+# 分组任务配置
+chatgpt-api:
+  launchList: group01,group02 # 启动几组，就配置几组
+  group01:
+    groupName: ChatGPT AI 问答助手
+    groupId: 28885518425541 # 知识星球ID
+    cookie:  # 知识星球个人cookie信息
+    openAiKey:  # 自行申请 https://beta.openai.com/overview 或者联系小傅哥 fustack 付费申请【购买虚拟号码等需要支付】。
+    cronExpression: 0/30 * * * * ? # 执行的频次配置，参考：cron.qqe2.com
+    silenced: false
+  group02:
+    groupName: 码农会锁
+    groupId: 28885518425541 # 知识星球ID
+    cookie:  # 知识星球个人cookie信息
+    openAiKey:  # 自行申请 https://beta.openai.com/overview 或者联系小傅哥 fustack 付费申请【购买虚拟号码等需要支付】。
+    cronExpression: 0/30 * * * * ? # 执行的频次配置，参考：cron.qqe2.com
+    silenced: true
+
